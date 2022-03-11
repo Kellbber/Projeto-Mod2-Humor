@@ -2,6 +2,8 @@
 #
 Projeto que visa o uso de HTML, CSS e JavaScript juntos.
 #
+# Adaptado para page de Tênis (marca fictícia).
+#
 Requisitos:
 #
 1 - Criação do repositório exclusivo no GitHub (0,5 pontos)
