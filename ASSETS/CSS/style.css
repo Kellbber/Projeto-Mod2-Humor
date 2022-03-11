@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100vw;
+    height: 100vh;
+    align-items: center; 
+    justify-content: center;  
+}
+header{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    flex-direction: column;
+    
+}
+nav{
+    display: flex;
+    width: 100%;
+}
+
+#textoCima{
+    min-width: 30%;
+    min-height: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 8%;
+    color: white;
+    background-color: black;
+    padding: 1.5rem 0;
+    font-size: 1rem;
+}
+#textoCima h2{ 
+    width: 100%;
+    text-align: center;
+    font-size: 120%;
+}
+#textoBaixo{
+    padding:2rem;
+    color:rgb(5, 5, 5);
+    
+}
+#textoBaixo h1{
+    width: 100%;
+    text-align: center;
+}
+#icone{
+    display: flex;
+    width:10%;
+    height:10rem;
+    margin: 0;
+    
+}
+ #banner{
+    display: flex;
+width: 100%;
+    height: 19rem;
+    background-image: url("../MEDIA/IMG/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+} 
+
+
+#textoMeio{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    padding: 1.2rem;
+    flex-direction: column;
+}
+
+#textoMeio h2{
+    font-size: 2rem;
+    padding: 1.2rem; 
+}
+
+#textoMeio h3{
+
+    font-size: 1rem;
+    color: rgb(73, 70, 70);
+}
+
+#rodape{
+    margin:7rem 0;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    min-height: 5%;
+    color: white;
+    background-color: black;
+    justify-content: center;
+    font-size: 1rem;
+    flex-wrap: wrap;
+    
+}
+
+#p{
+    width: 48%;
+    display: flex;
+    justify-content: flex-start;
+
+}
+#rodape a{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+
+#linkB{
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+    margin-right: 5px;
+
+}
+#tenisGeral{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5rem;
+    width: 65%;
+    background-color: #dddadb;
+    background-size: cover;
+}
+.tenis1{
+    margin-top: 20px;
+    display: flex;
+    align-self: center;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.tenis1:hover{
+    display: flex;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);  
+}
+.tenis1:hover{
+    border: 3px solid black;
+
+}
+#Abotao{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding:2%;
+
+}
+#button{
+    font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding: .5rem;
+    align-self: center;
+    background-color: rgb(12, 12, 12);
+    color: rgb(238, 232, 232);
+    box-shadow: 2px solid #555555;
+    border-radius: 5px;
+  }
+  
+#button:hover {
+    background-color: #555555;
+    color: white;
+  }
+.texto{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.texto h3{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 100%;
+    display: flex;
+    margin-top: 2rem;
+}
+
+.linkedin{
+    text-decoration: none;
+    color: white;
+}
