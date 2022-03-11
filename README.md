@@ -1,6 +1,6 @@
 #DEPLOY -> https://kellbber.github.io/Projeto-Mod2-Humor/
 #
-Projeto que visa o uso de html, CSS e JavaScript juntos.
+Projeto que visa o uso de HTML, CSS e JavaScript juntos.
 #
 Requisitos:
 #
